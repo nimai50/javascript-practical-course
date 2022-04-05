@@ -44,3 +44,17 @@ circleArea = function (radius) {
 
 //area
 console.groupEnd();
+
+
+//interact Java Script with HTML
+function calculateSquarePerimeter(){
+    let sideMesure = document.getElementById("sideMesure").value;
+    let perimeter = squarePerimeter(sideMesure);
+    document.getElementById("perimeter").innerHTML = perimeter;
+}
+
+function calculateSquareArea(){
+    let sideMesure = document.getElementById("sideMesure").value;
+    let area = squareArea(sideMesure);
+    document.getElementById("area").innerHTML = area;
+}

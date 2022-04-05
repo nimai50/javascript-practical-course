@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geometric figures | Javascript practical course </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometric figures | Javascript practical course</title>
     <style>
-        body{
-            background-color: black;
-            color: white;
-        }
+      body {
+        background-color: black;
+        color: white;
+      }
     </style>
-</head>
-<body>
-    <h1>
-        Geometric figures
-    </h1>
+  </head>
+  <body>
+    <header>
+      <h1>Geometric figures</h1>
+      <p>
+          Este es el primer ejercicio de la lección de figuras geométricas.
+      </p>
+    </header>
+    <section>
+        <h2>Calcula el área y perimetro de un cuadrado</h2>
+        <form>
+            <label for="sideMeasure">Tamaño del lado:</label>
+            <input type="number" id="sideMeasure" name="sideMeasure" />
+            <button type="button" onclick="calculateSquarePerimeter()">Calcula el perimetro</button>
+            <button type="button" onclick="calculateSquareArea()">Calcula el área</button>
+        </form>
+    </section>
+
     <script src="./figures.js"></script>
-</body>
+  </body>
 </html>
